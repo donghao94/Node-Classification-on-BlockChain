@@ -85,6 +85,6 @@ def run(data_name):
     
 #run('wikipedia')
 #run('graph_eg')
-run('eth_graph2')
+run('eth_graph')
 #run('wikipedia_eg')
 #run('reddit')
