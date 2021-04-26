@@ -37,4 +37,4 @@ labeled_graph = to_addrID_labeled.drop(columns=['address'])
 labeled_graph = labeled_graph[['from_addrID', 'to_addrID', 'timestamp', 'label', 'value']]
 labeled_graph.columns = ['from', 'to', 'timestamp', 'label', 'value']
 
-labeled_graph[:5]
+labeled_graph.to_csv('./processed/eth_graph.csv', index=False)
