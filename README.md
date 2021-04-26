@@ -47,9 +47,8 @@ networkx==2.5.1
 python -u learn_edge.py -d eth_graph --bs 200 --uniform  --n_degree 20 --agg_method attn --attn_mode prod --gpu 0 --n_head 1 --prefix hello_world
 ```
 
-* Learning the down-stream task (node-classification)
+* Learning node-classification
 
-Node-classification task reuses the network trained previously. Make sure the `prefix` is the same so that the checkpoint can be found under `saved_models`.
 
 ```{bash}
 # on MulDiGraph
