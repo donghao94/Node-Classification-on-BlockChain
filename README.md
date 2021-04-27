@@ -44,7 +44,7 @@ networkx==2.5.1
 * Learning the network using link prediction tasks
 ```{bash}
 # t-gat learning on MulDiGraph data
-python -u learn_edge.py -d eth_graph --bs 200 --uniform  --n_degree 20 --agg_method attn --attn_mode prod --gpu 0 --n_head 1 --prefix hello_world
+python -u learn_edge.py -d eth_graph --bs 200 --uniform  --n_degree 20 --agg_method attn --attn_mode prod --gpu 0 --n_head 2 --prefix hello_world
 ```
 
 * Learning node-classification
@@ -52,6 +52,6 @@ python -u learn_edge.py -d eth_graph --bs 200 --uniform  --n_degree 20 --agg_met
 
 ```{bash}
 # on MulDiGraph
-python -u learn_node.py -d eth_graph --bs 100 --uniform  --n_degree 20 --agg_method attn --attn_mode prod --gpu 0 --n_head 1 --prefix hello_world
+python -u learn_node.py -d eth_graph --bs 100 --uniform  --n_degree 20 --agg_method attn --attn_mode prod --gpu 0 --n_head 2 --prefix hello_world
 ```
 
