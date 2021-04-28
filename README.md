@@ -4,11 +4,7 @@
 
 ### Dataset and preprocessing ###
 
-#### Download the BlockChain data ####
-
-- Download [MulDiGraph.pkl](http://xblock.pro/tx/) and put it under  `dataset` folder.
-
-#### Preprocess the data ####
+#### Download and preprocess the BlockChain data ####
 
 ```{bash}
 python download_dataset.py 
