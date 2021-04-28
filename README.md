@@ -31,6 +31,7 @@ tqdm==4.41.1
 numpy==1.16.4
 scikit_learn==0.22.1
 networkx==2.5.1
+wget==3.2
 ```
 
 ### Command and configurations
