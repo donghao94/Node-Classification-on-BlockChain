@@ -11,7 +11,7 @@
 #### Preprocess the data ####
 
 ```{bash}
-python rawdata_to_txt.py 
+python download_dataset.py 
 ```
 
 ```{bash}
