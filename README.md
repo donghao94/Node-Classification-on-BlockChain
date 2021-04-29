@@ -44,7 +44,7 @@ wget==3.2
 python -u learn_edge.py -d eth_graph --bs 200 --uniform  --n_degree 20 --agg_method attn --attn_mode prod --gpu 0 --n_head 2 --prefix hello_world
 ```
 
-* Learning node-classification
+* Learning node-classification(you have to 'learn link prediction tasks' before this command)
 
 
 ```{bash}
